@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!-- doctype tag defines markup of language of document-->
+<html lang="en">
+    <!-- html tag is root element of page, containing everything else-->    
+<head>
+    <!-- contains info about webpage including metadata & stylesheets-->
+    <meta charset="UTF-8">
+    <!-- meta tags contain info about document used for SEP-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial</title>
+    <!-- changes title of webpage-->
+     
+</head>
+<body>
+    <!-- contains visible content on page-->
+    <h1> Hello World </h1>
+    <h2> Hello World </h2>
+    <h3> Hello World </h3>
+    <h4> Hello World </h4>
+    <h5> Hello World </h5>
+    <h6> Hello World </h6>
+    
+    <hr>
+
+    <div>
+        <p title="This is a tooltip"> This is a paragraph
+        <br> This is another sentence.
+        Lorem ipsum dolor sit <strong> strong </strong> amet consectetur adipisicing elit. <em> em </em> quos, <span>est corporis molestias unde qui asperiores numquam </span> natus <mark>mark</mark>voluptatem modi ullam, cum<small>small </small> nihil repudiandae a, <del>del</del> rerum aliquam <ins>ins</ins> ad.<sub> sub</sub> <sup>sup</sup>    
+        </p>
+
+        <p> This is a paragraph
+        <br> This is another sentence.
+        Lorem ipsum dolor sit <strong> strong </strong> amet consectetur adipisicing elit. <em> em </em> quos, <span>est corporis molestias unde qui asperiores numquam </span> natus <mark>mark</mark>voluptatem modi ullam, cum<small>small </small> nihil repudiandae a, <del>del</del> rerum aliquam <ins>ins</ins> ad.<sub> sub</sub> <sup>sup</sup>    
+        </p>
+
+        <p> This is a paragraph
+        <br> This is another sentence.
+        Lorem ipsum dolor sit <strong> strong </strong> amet consectetur adipisicing elit. <em> em </em> quos, <span>est corporis molestias unde qui asperiores numquam </span> natus <mark>mark</mark>voluptatem modi ullam, cum<small>small </small> nihil repudiandae a, <del>del</del> rerum aliquam <ins>ins</ins> ad.<sub> sub</sub> <sup>sup</sup>    
+        </p>
+    </div>
+
+    <a href="#bookmark"> 
+        <img src="degg.jpg" alt="dog egg" width="300">
+    </a>
+    <br>
+
+    <a href="https://www.google.com" target="_blank"> Google</a>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <p id="bookmark"> This is a bookmark</p>
+
+    <ul>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+        <li>List Item 4</li>
+        <li>List Item 5</li>
+    </ul>
+
+    <br>
+    
+    <ol type="1" start="10">
+        <li>List Item 1</li>
+            <ul>
+                <li>SUb Bullet 1</li>
+            </ul>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+        <li>List Item 4</li>
+        <li>List Item 5</li>
+    </ol>
+
+    <table>
+        <thead>
+            <tr>
+                <th> First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alec</td>
+                <td>Carbonell</td>
+                <td>24</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th colspan="2">Telephone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>Alec Carbonell</td>
+            <td>555-555-5555</td>
+            <td>777-777-7777</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <hr>
+    <br>
+
+    <form action="server.php">
+        <fieldset>
+            <legend>Personal information</legend>
+            First Name: <br>
+            <input type="text" name="firstname" value="" placeholder="First Name Here"> <br>
+            Last Name:<br>
+            <input type="text" name="lastname" value="" placeholder="Last Name Here"> 
+            <br>
+            <input type="radio" name="options"> Option 1
+            <input type="radio" name="options"> Option 2<br>
+            <input type="checkbox" name="checkboxes"> Checkbox 1 
+            <input type="checkbox" name="checkboxes"> Checkbox 2 
+            <input type="checkbox" name="checkboxes"> Checkbox 3 <br>
+            <label for="carSelect">Select:</label>
+            <select name="cars" id="carSelect">
+                <option value="BMW">BMW</option>
+                <option value="Volvo">Volvo</option>
+                <option value="Audi">Audi</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>
