@@ -16,27 +16,64 @@ body{
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
+    z-index: 0;
 }
 
 .column{
     flex: 25%;
 }
 
-.column img{
+.column img {
     padding: 4px;
     width: 100%;
     vertical-align: middle;
-    
 }
 
-@media screen and (max-width: 900px) {
+.text {
+    display: flex;
+    color: black;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+.image:hover {
+    opacity: 0.3;
+}
+
+.image {
+    opacity: 1;
+    display: flex;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+@media (max-width: 900px) {
     .column{
         flex: 50%;
     }
+    .fuckoff p {
+        width: 50%;
+    }
 }
 
-@media screen and (max-width: 600px){
+@media (max-width: 600px){
     .column{
         flex: 100%;
+    }
+    .fuckoff p {
+        width: 100%;
     }
 }
