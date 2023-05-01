@@ -9,6 +9,7 @@ function closeNav() {
 } 
 
 function darkSwitch(){
+    console.log("Switched")
     var element = document.body;
     element.classList.toggle("dark");
 }
