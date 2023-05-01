@@ -133,7 +133,6 @@ input:checked + .slider:before {
     font-size: 4em;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     color: aliceblue;
-    align-items: start;
     background: dimgray;
 }
 
