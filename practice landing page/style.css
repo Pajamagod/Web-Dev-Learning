@@ -14,5 +14,18 @@ h1{
 }
 
 nav{
+    background-color: aliceblue;
+    margin-right: 30%;
+    margin-left: 30%;
     position: sticky;
+    border: solid cornflowerblue 10px;
+}
+
+main{
+    max-width: 80rem;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
