@@ -7,9 +7,3 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.body.style.backgroundColor = "white";
 } 
-
-function darkSwitch(){
-    console.log("Switched")
-    var element = document.body;
-    element.classList.toggle("dark");
-}

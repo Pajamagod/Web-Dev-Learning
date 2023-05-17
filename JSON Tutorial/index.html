@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Example</title>
+</head>
+<body>
+    <ul id="users"></ul>
+    <script>
+        fetch('data.json')
+            .then((resp) => resp.json())
+            .then((json) => {
+                var users = json.users;
+                var output = "";
+                for(var i = 0; i < users.length; i++){
+                    output += "<li>" + users[i].shoppingList + "</li>";
+                }
+                document.getElementById("users").innerHTML = output;
+            })
+    </script>
+</body>
+</html>
