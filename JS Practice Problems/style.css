@@ -1,0 +1,7 @@
+#Result{
+    position: flex;
+    border: 1px solid;
+    max-width: 100px;
+    padding: .25 rem; 
+    overflow: auto;
+}
